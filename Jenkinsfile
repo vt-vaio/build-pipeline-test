@@ -2,7 +2,7 @@
 pipeline {
     //agent { docker { image 'python:3.11.4-alpine3.18' } }
     agent {
-        docker { image 'python:stm32-test-image:latest' }
+        docker { image 'stm32-test-image:latest' }
     }
     stages {
         stage('build') {
