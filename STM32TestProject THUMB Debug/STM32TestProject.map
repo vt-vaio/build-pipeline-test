@@ -3622,17 +3622,18 @@ LOAD linker stubs
  .debug_macro   0x0000000000000b49       0x90 STM32TestProject THUMB Debug/main.o
  .debug_macro   0x0000000000000bd9       0x2e STM32TestProject THUMB Debug/main.o
 
-.debug_line     0x0000000000000000      0x319
+.debug_line     0x0000000000000000      0x2fa
  .debug_line    0x0000000000000000       0xbf STM32TestProject THUMB Debug/main.o
- .debug_line    0x00000000000000bf       0xe7 STM32TestProject THUMB Debug/STM32_Startup.o
- .debug_line    0x00000000000001a6      0x173 STM32TestProject THUMB Debug/thumb_crt0.o
+ .debug_line    0x00000000000000bf       0xc0 STM32TestProject THUMB Debug/STM32_Startup.o
+ .debug_line    0x000000000000017f      0x17b STM32TestProject THUMB Debug/thumb_crt0.o
 
-.debug_str      0x0000000000000000     0x3141
+.debug_str      0x0000000000000000     0x30f8
  .debug_str     0x0000000000000000     0x3063 STM32TestProject THUMB Debug/main.o
                                        0x309f (size before relaxing)
- .debug_str     0x0000000000003063       0xa4 STM32TestProject THUMB Debug/STM32_Startup.o
- .debug_str     0x0000000000003107       0x3a STM32TestProject THUMB Debug/thumb_crt0.o
-                                         0x72 (size before relaxing)
+ .debug_str     0x0000000000003063       0x53 STM32TestProject THUMB Debug/STM32_Startup.o
+                                         0x88 (size before relaxing)
+ .debug_str     0x00000000000030b6       0x42 STM32TestProject THUMB Debug/thumb_crt0.o
+                                         0x85 (size before relaxing)
 
 .comment        0x0000000000000000       0x3d
  .comment       0x0000000000000000       0x3d STM32TestProject THUMB Debug/main.o
