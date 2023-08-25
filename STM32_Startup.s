@@ -100,6 +100,8 @@ ISR_RESERVED
 ISR_HANDLER PendSV_Handler
 ISR_HANDLER SysTick_Handler 
 
+#define STM32F04
+
 #if defined(STM32F042) || defined (STM32F042x6)
   #include "STM32F042x6.vec"
 #else 
