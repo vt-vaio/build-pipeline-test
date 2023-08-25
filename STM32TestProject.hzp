@@ -50,7 +50,7 @@
       arm_target_restrict_memory_accesses="Yes"
       c_user_include_directories="$(TargetsDir)/STM32/include;$(PackagesDir)/CMSIS_4/CMSIS/Include"
       debug_register_definition_file="$(TargetsDir)/STM32/STM32F0x2_Peripherals.xml"
-      linker_memory_map_file="$(TargetsDir)/STM32/STM32F042K6_MemoryMap.xml"
+      linker_memory_map_file="$(ProjectDir)/STM32F042K6_MemoryMap.xml"
       linker_section_placement_file="$(StudioDir)/targets/Cortex_M/flash_placement.xml"
       macros="DeviceVectorsFile=STM32F042x6.vec"
       project_directory=""

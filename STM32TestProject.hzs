@@ -16,6 +16,7 @@
   <ProjectSessionItem path="STM32TestProject"/>
   <ProjectSessionItem path="STM32TestProject;STM32TestProject"/>
   <ProjectSessionItem path="STM32TestProject;STM32TestProject;Source Files"/>
+  <ProjectSessionItem path="STM32TestProject;STM32TestProject;System Files"/>
  </Project>
  <Register1/>
  <Register2/>
