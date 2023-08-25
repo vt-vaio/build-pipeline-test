@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'psython --versions'
+                sh 'python --version'
             }
         }
     }
