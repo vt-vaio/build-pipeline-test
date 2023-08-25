@@ -5,9 +5,7 @@
   <Exceptions set="HardFault"/>
  </Breakpoints>
  <ExecutionProfileWindow/>
- <FrameBufferWindow>
-  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
- </FrameBufferWindow>
+ <FrameBuffer/>
  <Memory1/>
  <Memory2/>
  <Memory3/>
@@ -42,7 +40,8 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="main.c" selected="1" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="8" useTextEdit="1" path="main.c" left="0" selected="1" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="13" y="108" useTextEdit="1" path="../../../../Library/Rowley Associates Limited/CrossWorks for ARM/v4/packages/targets/STM32/STM32_Startup.s" left="0" top="0" codecName="Default"/>
  </Files>
  <ARMCrossStudioWindow activeProject="STM32TestProject" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="" buildConfiguration="THUMB Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="0"/>
 </session>
