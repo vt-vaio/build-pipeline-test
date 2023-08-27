@@ -7,7 +7,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo "Hello STM32"'
+                sh 'echo "Clone repo https://github.com/vt-vaio/build-pipeline-test.git"'
+                sh 'git clone https://github.com/vt-vaio/build-pipeline-test.git'
             }
         }
     }
