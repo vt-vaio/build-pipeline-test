@@ -12,7 +12,7 @@ pipeline {
                 //sh 'git clone https://github.com/vt-vaio/build-pipeline-test.git'
                 sh 'pwd'
                 sh 'ls -al'
-                './crossworks/bin/crossbuild -config "THUMB Debug" ./STM32TestProject.hzp'
+                sh './crossworks/bin/crossbuild -config "THUMB Debug" ./STM32TestProject.hzp'
                 //sh './crossworks/bin/crossbuild'
             }
         }
