@@ -1,5 +1,5 @@
 #include <debugio.h>
-#define VERSION 1005
+#define VERSION 1006
 void
 main(void)
 {
