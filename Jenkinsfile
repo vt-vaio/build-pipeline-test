@@ -4,17 +4,17 @@ pipeline {
     agent {
         docker { 
             image 'stm32-test-image:latest' 
-            args '-v $HOME:/'
+            args '-v $HOME:/srv/jekyll'
         }
     }
     stages {
-        stage('test') {
-            steps {
-                dir(path: '/'){
-                    sh 'ls -al'
-                }
-            }
-        }
+        // stage('test') {
+        //     steps {
+        //         dir(path: '/'){
+        //             sh 'ls -al'
+        //         }
+        //     }
+        // }
         stage('build') {
             steps {
                 // sh 'git clone https://github.com/vt-vaio/build-pipeline-test.git'
