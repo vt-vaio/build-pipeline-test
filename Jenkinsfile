@@ -7,10 +7,10 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                // sh 'git clone https://github.com/vt-vaio/build-pipeline-test.git'
                 sh 'pwd'
                 sh 'ls -al'
-                sh 'cd ..'
+                sh 'cd'
+                sh 'git clone https://github.com/vt-vaio/build-pipeline-test.git'
                 sh './crossworks/bin/crossbuild -config "THUMB Debug" ./build-pipeline-test/STM32TestProject.hzp'
             }
         }
