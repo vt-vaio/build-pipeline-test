@@ -3,8 +3,8 @@ pipeline {
     //agent { docker { image 'python:3.11.4-alpine3.18' } }
     agent {
         docker { 
-            image 'stm32-test-image:latest' 
-            args '-u root'
+            //image 'stm32-test-image:latest' 
+            image 'lts-jdk11:latest'
         }
     }
     stages {
