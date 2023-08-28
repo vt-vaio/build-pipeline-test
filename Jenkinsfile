@@ -9,7 +9,7 @@ pipeline {
             steps {
                 sh 'pwd'
                 sh 'ls -al'
-                sh 'cd'
+                sh 'cd /'
                 sh 'pwd'
                 sh 'ls -al'
                 sh 'git clone https://github.com/vt-vaio/build-pipeline-test.git'
