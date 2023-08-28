@@ -4,7 +4,7 @@ pipeline {
     agent {
         docker { 
             image 'stm32-test-image:latest' 
-            args '-v $HOME:/srv/jekyll'
+            args '-u root'
         }
     }
     stages {
