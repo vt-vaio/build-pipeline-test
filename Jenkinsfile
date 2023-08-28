@@ -4,7 +4,7 @@ pipeline {
     agent {
         docker { 
             //image 'stm32-test-image:latest' 
-            image 'lts-jdk11:latest'
+            image 'jenkins:lts-jdk11'
         }
     }
     stages {
