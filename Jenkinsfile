@@ -8,6 +8,7 @@ pipeline {
         stage('build') {
             steps {
                 // sh 'git clone https://github.com/vt-vaio/build-pipeline-test.git'
+                sh 'ls -al'
                 sh './crossworks/bin/crossbuild -config "THUMB Debug" ./build-pipeline-test/STM32TestProject.hzp'
             }
         }
